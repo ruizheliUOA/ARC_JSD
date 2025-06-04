@@ -51,9 +51,9 @@ Currently, ARC-JSD supports the following models:
 - Qwen/Qwen2.5-14B-Instruct
 - Qwen/Qwen2.5-32B-Instruct
 - Qwen/Qwen2.5-72B-Instruct
-- google/gemma-2b-it
-- google/gemma-9b-it
-- google/gemma-27b-it
+- google/gemma2-2b-it
+- google/gemma2-9b-it
+- google/gemma2-27b-it
 
 
 ## Citation
