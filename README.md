@@ -70,3 +70,10 @@ If you use ARC-JSD in your research, please cite our paper:
 
 ## Contact
 For any questions or issues, please open an issue on GitHub or contact us at `ruizhe.li@abdn.ac.uk`.
+
+## Acknowledgements
+Our code is inspired by the following works:
+- [ContextCite](https://github.com/MadryLab/context-cite)
+- [Retrieval Head](https://github.com/nightdessert/Retrieval_Head)
+
+Our work is supported by the Gemma 2 Academic Program GCP Credit Award from Google.
