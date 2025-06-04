@@ -8,10 +8,11 @@ import numpy as np
 import argparse
 from llm_models.modeling_gemma2 import Gemma2ForCausalLM
 from llm_models.modeling_qwen2 import Qwen2ForCausalLM
-from llm_models.modeling_llama import LlamaForCausalLM
+# from llm_models.modeling_llama import LlamaForCausalLM
 import os
 import json
 import seaborn as sns
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import platform
@@ -157,7 +158,7 @@ class RAG_Detector:
         return parts, separators, start_indices
 
     def get_ablated_context(self, parts, separators):
-       ablated_contexts = []
+        ablated_contexts = []
         mask = (np.ones((len(parts), len(parts))) - np.eye(len(parts))).astype(bool)
         for row_index in range(mask.shape[0]):
             ablated_separators = np.array(separators)[mask[row_index]]
