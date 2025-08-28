@@ -57,7 +57,7 @@ Currently, ARC-JSD supports the following models:
 
 
 ## Citation
-If you use ARC-JSD in your research, please cite our paper:
+If you think ARC-JSD is helpful for your research, please cite our paper:
 
 ```bibtex
 @article{li2025attributing,
