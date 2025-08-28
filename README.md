@@ -29,7 +29,7 @@ Try our ARC-JSD using our demo notebook:
 
 ```bash
 pip install transformers==4.43.3 spacy==3.8.4 numpy==1.26.3 nltk accelerate wheel
-pip install flash-attn --no-build-isolation 
+pip install flash-attn==2.7.4.post1 --no-build-isolation 
 ```
 
 ### Run ARC-JSD to analyse attention heads and MLPs
